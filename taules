@@ -1,0 +1,32 @@
+create database ATENEA;
+use ATENEA;
+create table STUDENTS(
+	  uid varchar(10) PRIMARY KEY,
+    nom varchar(200)
+);
+
+use ATENEA;
+create table TASKS(
+	  date 	  varchar(10),
+    subject varchar(10),
+    nom		  varchar(200),
+    uid		  varchar(10) PRIMARY KEY
+);
+
+use ATENEA;
+create table TIMETABLES(
+	  day 		  varchar(10),
+    hour    	varchar(10),
+    subject		varchar(10)	PRIMARY KEY,
+    room		  varchar(10)
+);
+
+use ATENEA;
+create table MARKS(
+	  uid			  varchar(10)		PRIMARY KEY,
+    subject		varchar(10),
+    nom			  varchar(200),
+    mark		  int
+);
+
+
