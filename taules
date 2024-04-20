@@ -1,28 +1,28 @@
 create database ATENEA;
 use ATENEA;
-create table STUDENTS(
+create table students(
 	  uid varchar(10) PRIMARY KEY,
     nom varchar(200)
 );
 
 use ATENEA;
-create table TASKS(
+create table tasks(
 	  date 	  varchar(10),
     subject varchar(10),
     nom		  varchar(200),
-    uid		  varchar(10) PRIMARY KEY
+    uid		  varchar(10) 
 );
 
 use ATENEA;
-create table TIMETABLES(
+create table timetables(
 	  day 		  varchar(10),
     hour    	varchar(10),
-    subject		varchar(10)	PRIMARY KEY,
+    subject		varchar(10),
     room		  varchar(10)
 );
 
 use ATENEA;
-create table MARKS(
+create table marks(
 	  uid			  varchar(10),
     subject		varchar(10),
     nom			  varchar(200),
