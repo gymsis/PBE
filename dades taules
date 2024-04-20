@@ -1,0 +1,69 @@
+/* TAULA ESTUDIANTS	*/
+insert into atenea.students values('3176B126','Laura');
+insert into atenea.students values('84E8D1D0','Marga');
+insert into atenea.students values('261AA014','Joshua');
+insert into atenea.students values('FDBB9429','Anastasia');
+
+
+/* TAULA MARKS	*/
+/* Anastasia */
+insert into atenea.marks values('FDBB9429','AST', 'control teoria', 8);
+insert into atenea.marks values('FDBB9429','PBE', 'Puzzle1', 9);
+insert into atenea.marks values('FDBB9429','ONELE', 'Parcial', 6);
+insert into atenea.marks values('FDBB9429','ICOM', 'Final', 5);
+
+/* Marga */
+insert into atenea.marks values('84E8D1D0','IX', 'Parcial', 7);
+insert into atenea.marks values('84E8D1D0','PVSAC', 'Lab3', 6);
+insert into atenea.marks values('84E8D1D0','EIM', 'Entrega1', 8);
+insert into atenea.marks values('84E8D1D0','SAD', 'Pràctica1', 9);
+
+/* Joshua */
+insert into atenea.marks values('261AA014','PBE', 'Puzzle1', 8);
+insert into atenea.marks values('261AA014','TD', 'Parcial', 5);
+insert into atenea.marks values('261AA014','ONELE', 'Lab1', 7);
+insert into atenea.marks values('261AA014','ICOM', 'Examen lab1', 6);
+
+/* Laura */
+insert into atenea.marks values('3176B126','PIV', 'Parcial', 8);
+insert into atenea.marks values('3176B126','EIM', 'Entrega1', 9);
+insert into atenea.marks values('3176B126','PBE', 'Puzzle2', 10);
+insert into atenea.marks values('3176B126','AST', 'Parcial1', 3);
+
+
+/* TAULA TASKS	*/
+/* Anastasia */
+insert into atenea.tasks values('23-04-2024', 'PBE', 'Entrega 3', 'FDBB9429');
+insert into atenea.tasks values('18-04-2024', 'ONELE', 'Previ 3', 'FDBB9429');
+insert into atenea.tasks values('16-03-2024', 'PBE', 'Puzzle 1', 'FDBB9429');
+insert into atenea.tasks values('12-06-2024', 'PBE', 'ICT', 'FDBB9429');
+
+/* Marga */
+insert into atenea.tasks values('12-02-2024', 'EIM', 'Presentación', '84E8D1D0');
+insert into atenea.tasks values('11-04-2024', 'PVSAC', 'Estudi Previ 2', '84E8D1D0');
+insert into atenea.tasks values('05-06-2024', 'PBE', 'Examen teoria', '84E8D1D0');
+insert into atenea.tasks values('22-05-2024', 'SAD', 'Entrega Pract 1', '84E8D1D0');
+
+/* Joshua */
+insert into atenea.tasks values('20-04-2024', 'ONELE', 'Lab3', '261AA014');
+insert into atenea.tasks values('04-05-2024', 'TD', 'Entrega2', '261AA014');
+insert into atenea.tasks values('12-06-2024', 'PBE', 'ICT', '261AA014');
+
+/* Laura */
+insert into atenea.tasks values('01-06-2024', 'PIV', 'Estudi Previ 2', '3176B126');
+insert into atenea.tasks values('03-05-2024', 'EIM', 'Presentació', '3176B126');
+insert into atenea.tasks values('15-04-2024', 'PBE', 'Puzzle2', '3176B126');
+
+/* TAULA TIMETABLES	*/
+insert into atenea.timetables values('Mon', '08:00:00', 'Lab RP', 'D3-006');
+insert into atenea.timetables values('Mon', '10:00:00', 'PSAVC', 'A4-105');
+insert into atenea.timetables values('Mon', '12:00:00', 'Lab DSBM', 'D3-006');
+insert into atenea.timetables values('Tue', '08:00:00', 'TD', 'A4-105');
+insert into atenea.timetables values('Tue', '10:00:00', 'PSAVC', 'A4-105');
+insert into atenea.timetables values('Tue', '11:00:00', 'DSBM', 'A4-105');
+insert into atenea.timetables values('Tue', '12:00:00', 'RP', 'A4-105');
+insert into atenea.timetables values('Wed', '08:00:00', 'Lab PBE', 'C4-S10');
+insert into atenea.timetables values('Fri', '08:00:00', 'RP', 'A4-105');
+insert into atenea.timetables values('Fri', '10:00:00', 'TD', 'A4-105');
+insert into atenea.timetables values('Fri', '11:00:00', 'DSBM', 'A4-105');
+
